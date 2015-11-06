@@ -1,4 +1,3 @@
-#pragma comment(linker,"/opt:nowin98")
 #include<windows.h>
 #include<math.h>
 
