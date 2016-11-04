@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{72E70361-30A8-49F5-BC81-9AD4A1DCD8AC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>MyNumberPrime</RootNamespace>
+    <RootNamespace>IsMyNumberPrime</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
