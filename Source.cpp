@@ -96,7 +96,7 @@ DWORD WINAPI ThreadFunc2(LPVOID p)
 			}
 		}
 	}
-	__int64 primecount = 2; // 2, 3,
+	__int64 primecount = 0; // 2, 3もマイナンバーではない
 	for (i = 6; i <= 999999999999i64; i += 6)
 	{
 		m = i - 1;
