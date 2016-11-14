@@ -86,7 +86,7 @@ DWORD WINAPI ThreadFunc2(LPVOID p)
 		}
 		if (!getprime(prime_table, n))
 		{
-			for (k = n * n; k <= 999999999999i64; k += 6 * n)
+			for (k = n * n; ; k += 6 * n)
 			{
 				if (k > 999999999999i64) break;
 				setprime(prime_table, k);
